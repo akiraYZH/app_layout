@@ -143,7 +143,7 @@ Carousel.prototype.calc_index =function(){
         return;
     }
    
-    if(this.ontouch_ev2.targetTouches[0].clientX - this.ontouch_ev1.targetTouches[0].clientX<-10){
+    if(this.ontouch_ev2.targetTouches[0].clientX - this.ontouch_ev1.targetTouches[0].clientX>10){
         if(this.index<=0){
             this.index = this.oCarousel_bar.children.length-1;
         }else{
@@ -151,7 +151,7 @@ Carousel.prototype.calc_index =function(){
         }
         
         
-    } else if(this.ontouch_ev2.targetTouches[0].clientX - this.ontouch_ev1.targetTouches[0].clientX>10){
+    } else if(this.ontouch_ev2.targetTouches[0].clientX - this.ontouch_ev1.targetTouches[0].clientX<-10){
         if(this.index>=this.oCarousel_bar.children.length-1){
             this.index=0;
         }else{
