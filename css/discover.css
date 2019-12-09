@@ -42,7 +42,8 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  overflow-y: auto; }
+  overflow-y: auto;
+  background-color: #fff; }
   .web header {
     position: absolute;
     top: 0;
@@ -53,7 +54,8 @@ body {
     justify-content: space-between;
     align-items: flex-end;
     padding: 0 2.6666666667vw;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    background-color: #fff; }
     .web header .city_box {
       width: 21.3333333333vw;
       height: 8vw;
