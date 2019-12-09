@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both; }
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both; }
+
+html,
+body {
+  position: relative;
+  overflow: hidden; }
+
+.web {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto; }
+  .web header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 17.6vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 2.6666666667vw;
+    box-sizing: border-box; }
+    .web header .city_box {
+      width: 21.3333333333vw;
+      height: 8vw;
+      border: 1px solid #ff9344;
+      box-sizing: border-box;
+      background-color: white; }
+      .web header .city_box select {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        background-image: url("../img/toggle_triangle.png");
+        background-position: 90% 55%;
+        background-repeat: no-repeat;
+        background-size: 3.7333333333vw 2vw;
+        outline: none;
+        padding-left: 1.8666666667vw;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-color: white; }
+    .web header .row {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3.3333333333vw; }
+      .web header .row .back {
+        display: block;
+        width: 16vw;
+        height: 8vw;
+        border: 1px solid #ff9344;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2.1333333333vw;
+        color: black;
+        font-size: 3.4666666667vw; }
+      .web header .row p {
+        font-size: 3.4666666667vw; }
+      .web header .row .iconfont {
+        font-size: 6.6666666667vw;
+        color: #929292;
+        position: relative; }
+        .web header .row .iconfont.active {
+          color: #ff9344; }
+        .web header .row .iconfont span {
+          width: 4vw;
+          height: 4vw;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #fa5050;
+          color: white;
+          font-size: 2.6666666667vw;
+          position: absolute;
+          right: -0.6666666667vw;
+          top: 0; }
+
+section {
+  position: absolute;
+  bottom: 18.9333333333vw;
+  top: 17.6vw;
+  overflow-y: auto;
+  width: 100%; }
+  section .section_box {
+    width: 100%;
+    padding: 0 2.6666666667vw;
+    box-sizing: border-box; }
+    section .section_box .title {
+      width: 100%;
+      height: 12.8vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end; }
+      section .section_box .title .title_box {
+        display: flex;
+        align-items: center; }
+        section .section_box .title .title_box .title_icon_box {
+          width: 8vw;
+          height: 8vw; }
+          section .section_box .title .title_box .title_icon_box img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain; }
+        section .section_box .title .title_box h2 {
+          font-size: 4vw;
+          margin-left: 1.3333333333vw;
+          font-family: PingFang SC;
+          font-weight: normal; }
+      section .section_box .title .more_box {
+        display: flex;
+        margin-bottom: 1.3333333333vw; }
+        section .section_box .title .more_box a {
+          display: flex;
+          align-items: center; }
+          section .section_box .title .more_box a h3 {
+            font-family: PingFang SC;
+            font-size: 3.2vw;
+            font-weight: normal;
+            color: #494949; }
+          section .section_box .title .more_box a .iconfont {
+            width: 4vw;
+            height: 4vw;
+            font-size: 4vw;
+            color: #ff9344; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 18.9333333333vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  footer a {
+    width: 20%; }
+    footer a.active > .iconfont {
+      color: #ff9344; }
+    footer a .iconfont {
+      display: block;
+      text-align: center;
+      font-size: 10.6666666667vw;
+      line-height: 11.8666666667vw;
+      color: grey; }
+    footer a p {
+      text-align: center;
+      font-size: 3.4666666667vw;
+      line-height: 3.4666666667vw; }
+
+.web section .section_box .account_info {
+  width: 100%;
+  height: 46.6666666667vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin-bottom: 3.3333333333vw; }
+  .web section .section_box .account_info .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .web section .section_box .account_info .row div {
+      display: flex; }
+      .web section .section_box .account_info .row div .avatar_box {
+        width: 22.6666666667vw;
+        height: 22.6666666667vw;
+        border-radius: 50%;
+        padding: 0; }
+        .web section .section_box .account_info .row div .avatar_box img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+      .web section .section_box .account_info .row div .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 3.3333333333vw;
+        box-sizing: border-box;
+        font-weight: normal; }
+        .web section .section_box .account_info .row div .info h3 {
+          font-size: 4vw; }
+        .web section .section_box .account_info .row div .info p {
+          font-size: 3.4666666667vw; }
+    .web section .section_box .account_info .row .icon-icon-copy {
+      font-size: 10.6666666667vw; }
+    .web section .section_box .account_info .row .my_icon_box {
+      width: 25.7333333333vw;
+      height: 20.2666666667vw;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center; }
+      .web section .section_box .account_info .row .my_icon_box:first-of-type {
+        background-color: #b2e0a0; }
+      .web section .section_box .account_info .row .my_icon_box:nth-of-type(2) {
+        background-color: #a0dce0; }
+      .web section .section_box .account_info .row .my_icon_box:nth-of-type(3) {
+        background-color: #e0b7a0; }
+      .web section .section_box .account_info .row .my_icon_box div {
+        width: 18.6666666667vw;
+        height: 12vw;
+        margin-bottom: 0.6666666667vw; }
+        .web section .section_box .account_info .row .my_icon_box div img {
+          height: 100%;
+          width: 100%;
+          object-fit: contain; }
+      .web section .section_box .account_info .row .my_icon_box h3 {
+        font-size: 3.4666666667vw;
+        color: black;
+        font-weight: normal; }
+.web section .section_box .title {
+  height: 12vw;
+  align-items: center; }
+  .web section .section_box .title:nth-of-type(2) .title_box .title_icon_box, .web section .section_box .title:nth-of-type(3) .title_box .title_icon_box {
+    height: 10.6666666667vw; }
+  .web section .section_box .title:nth-of-type(6) .title_box .title_icon_box, .web section .section_box .title:nth-of-type(7) .title_box .title_icon_box {
+    height: 10.6666666667vw; }
+    .web section .section_box .title:nth-of-type(6) .title_box .title_icon_box img, .web section .section_box .title:nth-of-type(7) .title_box .title_icon_box img {
+      width: 100%; }
+  .web section .section_box .title:nth-of-type(5) {
+    margin-bottom: 6.6666666667vw; }
+  .web section .section_box .title .title_box .title_icon_box {
+    width: 12.1333333333vw;
+    height: 8.4vw;
+    display: flex;
+    justify-content: flex-start; }
+    .web section .section_box .title .title_box .title_icon_box img {
+      width: auto; }
+  .web section .section_box .title .more_box {
+    margin-bottom: 0; }
+.web section .section_box .pannel {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 11.4666666667vw;
+  box-sizing: border-box;
+  margin-top: 2vw; }
+  .web section .section_box .pannel button {
+    width: 19.4666666667vw;
+    height: 10.1333333333vw;
+    background-color: #ff9344;
+    color: white;
+    font-size: 3.2vw;
+    border: 0;
+    border-radius: 5.0666666667vw; }
+
+/*# sourceMappingURL=my.css.map */

@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both; }
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both; }
+
+html,
+body {
+  position: relative;
+  overflow: hidden; }
+
+.web {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto; }
+  .web header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 17.6vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 2.6666666667vw;
+    box-sizing: border-box; }
+    .web header .city_box {
+      width: 21.3333333333vw;
+      height: 8vw;
+      border: 1px solid #ff9344;
+      box-sizing: border-box;
+      background-color: white; }
+      .web header .city_box select {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        background-image: url("../img/toggle_triangle.png");
+        background-position: 90% 55%;
+        background-repeat: no-repeat;
+        background-size: 3.7333333333vw 2vw;
+        outline: none;
+        padding-left: 1.8666666667vw;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-color: white; }
+    .web header .row {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3.3333333333vw; }
+      .web header .row .back {
+        display: block;
+        width: 16vw;
+        height: 8vw;
+        border: 1px solid #ff9344;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2.1333333333vw;
+        color: black;
+        font-size: 3.4666666667vw; }
+      .web header .row p {
+        font-size: 3.4666666667vw; }
+      .web header .row .iconfont {
+        font-size: 6.6666666667vw;
+        color: #929292;
+        position: relative; }
+        .web header .row .iconfont.active {
+          color: #ff9344; }
+        .web header .row .iconfont span {
+          width: 4vw;
+          height: 4vw;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #fa5050;
+          color: white;
+          font-size: 2.6666666667vw;
+          position: absolute;
+          right: -0.6666666667vw;
+          top: 0; }
+
+section {
+  position: absolute;
+  bottom: 18.9333333333vw;
+  top: 17.6vw;
+  overflow-y: auto;
+  width: 100%; }
+  section .section_box {
+    width: 100%;
+    padding: 0 2.6666666667vw;
+    box-sizing: border-box; }
+    section .section_box .title {
+      width: 100%;
+      height: 12.8vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end; }
+      section .section_box .title .title_box {
+        display: flex;
+        align-items: center; }
+        section .section_box .title .title_box .title_icon_box {
+          width: 8vw;
+          height: 8vw; }
+          section .section_box .title .title_box .title_icon_box img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain; }
+        section .section_box .title .title_box h2 {
+          font-size: 4vw;
+          margin-left: 1.3333333333vw;
+          font-family: PingFang SC;
+          font-weight: normal; }
+      section .section_box .title .more_box {
+        display: flex;
+        margin-bottom: 1.3333333333vw; }
+        section .section_box .title .more_box a {
+          display: flex;
+          align-items: center; }
+          section .section_box .title .more_box a h3 {
+            font-family: PingFang SC;
+            font-size: 3.2vw;
+            font-weight: normal;
+            color: #494949; }
+          section .section_box .title .more_box a .iconfont {
+            width: 4vw;
+            height: 4vw;
+            font-size: 4vw;
+            color: #ff9344; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 18.9333333333vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  footer a {
+    width: 20%; }
+    footer a.active > .iconfont {
+      color: #ff9344; }
+    footer a .iconfont {
+      display: block;
+      text-align: center;
+      font-size: 10.6666666667vw;
+      line-height: 11.8666666667vw;
+      color: grey; }
+    footer a p {
+      text-align: center;
+      font-size: 3.4666666667vw;
+      line-height: 3.4666666667vw; }
+
+.web header {
+  width: 100%;
+  height: 21.0666666667vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.6666666667vw;
+  box-sizing: border-box; }
+  .web header .logo_box {
+    width: 16.5333333333vw;
+    height: 16.5333333333vw;
+    overflow: hidden; }
+    .web header .logo_box img {
+      width: 100%; }
+  .web header .search_box form {
+    position: relative;
+    width: 36vw;
+    height: 7.2vw; }
+    .web header .search_box form input {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #ff9344;
+      border-radius: 3.6vw;
+      font-size: 3.2vw;
+      padding: 0 9.3333333333vw 0 3.7333333333vw;
+      box-sizing: border-box;
+      outline: none;
+      background-color: white; }
+    .web header .search_box form button {
+      position: absolute;
+      right: 2.6666666667vw;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #ff9344;
+      font-size: 5.0666666667vw;
+      border: 0;
+      background-color: transparent;
+      outline: none; }
+.web section {
+  width: 100%;
+  position: absolute;
+  bottom: 18.9333333333vw;
+  top: 21.0666666667vw;
+  overflow-y: auto; }
+  .web section .kv {
+    width: 100%;
+    height: 37.7333333333vw; }
+    .web section .kv .carousel {
+      width: 100%;
+      height: 100%;
+      position: relative; }
+      .web section .kv .carousel .carousel_frame {
+        width: 100%;
+        height: 100%;
+        overflow: hidden; }
+        .web section .kv .carousel .carousel_frame .carousel_bar {
+          width: 500%;
+          height: 100%;
+          font-size: 0; }
+          .web section .kv .carousel .carousel_frame .carousel_bar li {
+            display: inline-block;
+            width: 20%;
+            height: 100%; }
+            .web section .kv .carousel .carousel_frame .carousel_bar li img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              display: block; }
+      .web section .kv .carousel .dot {
+        width: 100%;
+        height: 1.4666666667vw;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        bottom: 12vw;
+        font-size: 0; }
+        .web section .kv .carousel .dot li {
+          width: 20%;
+          height: 1.4666666667vw;
+          display: inline-block; }
+        .web section .kv .carousel .dot li.active {
+          background-color: rgba(255, 255, 255, 0.8); }
+  .web section .section_box {
+    width: 100%;
+    padding: 0 2.6666666667vw;
+    box-sizing: border-box; }
+    .web section .section_box .show_box {
+      width: 78.1333333333vw;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap; }
+      .web section .section_box .show_box .row {
+        width: 100%;
+        margin-top: 4vw;
+        display: flex;
+        justify-content: space-between; }
+        .web section .section_box .show_box .row:first-of-type {
+          margin-top: 2vw; }
+        .web section .section_box .show_box .row a {
+          width: 32vw;
+          height: 12vw;
+          display: block; }
+          .web section .section_box .show_box .row a img {
+            height: 100%;
+            widows: 100%;
+            object-fit: cover; }
+    .web section .section_box .product {
+      display: block;
+      width: 100%;
+      height: 22vw;
+      margin-top: 4vw;
+      display: flex; }
+      .web section .section_box .product .product_img_box {
+        width: 28.2666666667vw;
+        height: 100%;
+        flex-shrink: 0; }
+        .web section .section_box .product .product_img_box img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+      .web section .section_box .product .product_info {
+        flex-grow: 1;
+        margin-left: 2.6666666667vw;
+        display: flex;
+        align-content: space-around;
+        flex-wrap: wrap; }
+        .web section .section_box .product .product_info .row {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          justify-items: center; }
+          .web section .section_box .product .product_info .row h3 {
+            font-size: 4vw;
+            color: #000;
+            font-family: PingFang SC; }
+          .web section .section_box .product .product_info .row h4 {
+            font-size: 4.2666666667vw;
+            color: #ff9344;
+            font-family: PingFang SC;
+            font-weight: normal; }
+          .web section .section_box .product .product_info .row p {
+            font-size: 2.9333333333vw;
+            color: #494949; }
+
+/*# sourceMappingURL=index.css.map */
