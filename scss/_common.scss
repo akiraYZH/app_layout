@@ -210,8 +210,12 @@ footer {
 
     a {
         width: 20%;
+        color: grey;
 
         &.active>.iconfont {
+            color: $index_color;
+        }
+        &.active{
             color: $index_color;
         }
 

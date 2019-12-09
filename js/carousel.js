@@ -68,8 +68,7 @@ function Carousel(id) {
         // clearInterval(this.timer);
         _this.ontouch_ev2 = ev||window.event;
         _this.ontouch_ev2.preventDefault();
-        // this.oCarousel_bar.style.position = 'relative';
-        // this.oCarousel_bar.style.left = this.oCarousel_bar.offsetLeft +(this.ontouch_ev1.targetTouches[0].clientX - this.oCarousel_bar.offsetLeft) + 'px';
+        
         
     }.bind(this);
 
